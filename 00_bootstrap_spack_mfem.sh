@@ -18,7 +18,7 @@ LOAD_MODULES=(
 # MFEM variants (CPU default). For GPU later, you’ll add +cuda to the env.
 MFEM_SPECS=(
   "openmpi %gcc"
-  "mfem +mpi +hypre +metis ^openmpi"
+  "mfem +mpi +metis ^openmpi"
   # add glvis if you plan to visualize on a workstation with GUI libs available:
   # "glvis"
 )
